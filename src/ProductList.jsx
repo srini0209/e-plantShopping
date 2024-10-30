@@ -398,7 +398,7 @@ function ProductList() {
           ))}
         </div>
       ) : (
-        <CartItem onContinueShopping={handleContinueShopping} />
+        <CartItem onContinueShopping={handleContinueShopping} totalItems={totalItems} />
       )}
     </div>
   );
